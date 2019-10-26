@@ -1,0 +1,201 @@
+<html>
+<head>
+	 <meta name="viewport" content="initial-scale=2, maximum-scale=1.0, user-scalable=no" />
+<style>
+	@font-face {
+                font-family:Montserrat-Regular;
+                src: url(https://voublaa.github.io/res/font/Montserrat-Regular.ttf);
+            }
+            
+	body {
+		margin:0;
+		height:100%;
+		padding-bottom:30px;
+		user-select: none; /* supported by Chrome and Opera */
+       -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+       -ms-user-select: none; /* Internet Explorer/Edge */
+       cursor: default;
+       font-family:Montserrat-Regular;
+       background-color:#FAB4A8;
+       color:#763E3C;
+       line-height:1.5;
+		}
+		
+		.body {
+			width:100%;
+			height:100%;
+			}
+			
+			.ongoing_ct {
+				width:100%;
+				height:100%;
+				
+				}
+	
+	
+	.title {
+		width:100%;
+		font-size:14px;
+		text-align:center;
+		padding-top:15px;
+		}
+		
+		
+	
+	           .collection {
+                width:100%;
+                height:400px;
+                transform:translateY(20px);
+                display:flex;
+                flex-wrap:wrap;
+                margin-bottom:30px;
+                
+                
+                
+                }
+                
+                .collection_ct {
+                width:300px;
+                height:250px;
+                box-shadow:1px 1px 5px #B15A53, -1px -1px 5px #B15A53;
+                margin:20 auto;
+                display:flex;
+                flex-wrap:wrap;
+                text-align:center;
+                }
+                
+                .collection_ct_img {
+                width:300px;
+                height:200px;
+                background-color:#8247E1;
+                display:block;
+                }
+                
+                .collection_ct_ti {
+                width:300px;
+                height:50px;
+                background-color:#E84A87;
+                display:block;
+                }
+                
+                .collection_ct_ti_sub {
+                text-align:center;
+                transform:translateY(12px);
+                font-family:Mandali;
+                font-weight:700;
+                color:#F0EBFC;
+                }
+	
+		
+		
+</style>
+</head>
+<body>
+	<div class="body">
+<img src="banner.jpeg" width="100%">
+	<div class="title">
+	<h1>ONGOING EVENTS</h1>
+	</div>
+	
+	<div class="ongoing_ct">
+		
+		
+				<div class="collection">
+			<div class="collection_ct"  onclick="parent.location='events/events1.html ';
+			                                                                 document.getElementsByClassName('loader')[0].style.display='block'; ">
+			<div class="collection_ct_img">
+           <img src="events.jpeg" width="100%" height="100%"/> </div>
+			<div class="collection_ct_ti"><div class="collection_ct_ti_sub">100$ Challenge</div></div>
+			</div>
+			
+			
+			
+			<div class="collection_ct"> <div class="collection_ct_img"> <img src="events2.jpeg" width="100%" height="100%"/>     </div>
+			<div class="collection_ct_ti"><div class="collection_ct_ti_sub">Diwali Special Tournament</div></div>
+			</div>
+ 
+             <div class="title">
+	<h1>UPCOMING EVENTS</h1>
+	</div>
+	
+	<div class="ongoing_ct">
+		
+		
+				<div class="collection">
+			<div class="collection_ct"  onclick="parent.location='upcoming/events1.html';
+			document.getElementsByClassName('loader')[0].style.display='block'; ">
+			<div class="collection_ct_img"><img src="events.jpeg" width="100%" height="100%" /> </div>
+			<div class="collection_ct_ti"><div class="collection_ct_ti_sub">Cheap Pooling (2347)</div></div>
+			</div>
+			
+			
+			
+			<div class="collection_ct" onclick="parent.location='upcoming/events2.html';
+			document.getElementsByClassName('loader')[0].style.display='block'; ">
+<div class="collection_ct_img"> <img src="events3.jpeg" width="100%" height="100%"/>     </div>
+			<div class="collection_ct_ti"><div class="collection_ct_ti_sub">Christmas Challenge (5636)</div></div>
+			</div>
+ 
+             
+    
+		
+		
+		</div>
+    
+		
+		
+		</div>
+		
+		
+		
+		
+		
+		
+		
+			</div>
+			
+			<div class="loader"><div class="loader_ct">
+			<img src="football.png" width="100% height="100%"">
+				<style>
+					.loader {
+    position: fixed;
+    width:100%;
+    height:100%;
+    z-index: 10;
+    background-color:white;
+    display:none;
+    
+    
+}
+
+.loader_ct {
+	         
+			position:fixed;
+			top:50%;
+			left:42%;
+			transform:translate(-50%, -50%);
+			width:60px;
+			height:60px;
+			
+			animation:rot 1s linear infinite;
+		}
+		
+		@keyframes rot {
+			0% {
+				transform:rotate(0deg);
+				}
+				
+			100% {
+				transform:rotate(360deg);
+				}
+			
+			}
+		
+		
+		
+				</style>
+			</div></div>
+</body>
+</html>
