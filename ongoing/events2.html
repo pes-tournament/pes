@@ -1,0 +1,71 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	    
+	    <script type="text/javascript">
+$(window).load(function() {
+    $(".loader").fadeOut("slow");
+});
+</script>
+ <meta name="viewport" content="initial-scale=2, maximum-scale=1.0, user-scalable=no" />
+ <link href="ongoing_style.css" rel="stylesheet">
+ 
+ 
+</head>
+<style>
+	body {
+		background:linear-gradient(to bottom, #704600, #CA7E00, #D98700, #A56700, #7F4F00);
+		}
+		
+	.register {
+		background-color:#D98700;
+		}
+		
+	.screen2 {
+		background: linear-gradient(to bottom, #704600, #CA7E00, #D98700, #D98700, #D98700);
+		}
+</style>
+<body>
+	
+	<div class="screen1">
+	<div class="back"> </div>
+	<div class="title">
+			Diwali Special (4927)
+		</div>
+		
+	<div class="main-img">
+	         <img src="events1.png" width="300px">
+		</div>
+		
+		<div class="details-ti">Description </div>
+		<div class="details">
+			 <p>
+				This tournament is live now. Click below button to see the progress.
+			</p>
+		</div>
+		<div class="register" onclick="document.getElementsByClassName('screen1')[0].style.display='none'; document.getElementsByClassName('screen2')[0].style.display='block'; ">
+			<p10>Tournament is LIVE</br>See Fixtures</p10>
+		</div>
+		</div>
+		<!--screen1 closed-->
+			
+		<div class="screen2" style="display:none;">
+			<div class="fixture-ti">FIXTURE</div>
+			<p class="p-fixture">
+				<h2>Group A</h2>
+				- - - - Vs - - - - </br>
+				- - - - Vs - - - - </br>
+				- - - - Vs - - - - </br>
+				- - - - Vs - - - - </br>
+				
+				<h2>Group B</h2>
+				- - - - Vs - - - - </br>
+				- - - - Vs - - - - </br>
+				- - - - Vs - - - - </br>
+				- - - - Vs - - - - </br>
+			</p>
+		</div>
+		<!--screen2 closed-->
+	
+</body>
+</html>
