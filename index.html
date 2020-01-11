@@ -3,27 +3,61 @@
 	 <meta name="viewport" content="initial-scale=2, maximum-scale=1.0, user-scalable=no" />
 <link href="res/pes_style.css" rel="stylesheet">
 </head>
+
 <body>
 	<div class="body">
-<img src="banner.jpeg" width="100%">
+
 	<div class="translate">
+		<div class="pes-ti">Pes Tournament</div>
 	<div class="title">
+		
 	<h1>ONGOING EVENTS</h1>
 	</div>
 	<div class="ongoing_ct">
 	<div class="collection">
-		<!--ongoing post1-->
-			<div class="collection_ct"  onclick="parent.location='ongoing/events1.html ';
-			                                                                 document.getElementsByClassName('loader')[0].style.display='block'; ">
-			<div class="collection_ct_img">
-           <img src="events.jpeg" width="100%" height="100%"/> </div>
-			<div class="collection_ct_ti"><div class="collection_ct_ti_sub">100$ Challenge</div></div>
+		
+<!--ongoing post1-->
+			<div class="collection_ct" style="background: linear-gradient(to bottom, #3E000A, #7E0030, #9A002D, #97002C, #61000D);" 
+                   onclick="Clickone(); document.getElementsByClassName('outro')[0].style.background='linear-gradient(to bottom, #3E000A, #7E0030, #9A002D, #97002C, #61000D)'; document.getElementsByClassName('outro')[0].style.display='block'; ">
+			<div class="collection_ct_ti"><div class="collection_ct_ti_sub">Cheap Pooling</div></div>
+<div class="collection_ct_img">
+           <img src="events.png" width="100%" />
+</div>
+<div class="collection_ct_ds"><div class="collection_ct_ds_sub">Scheduled on or before 12th February</div></div>
+<div class="open" style="background-color:#9A002D;">OPEN</div>
 			</div>
+			   <script>
+          function Clickone() {
+            setTimeout(
+              function() {
+               parent.location='ongoing/events1.html ';
+           }, 300);
+           }
+       </script>
+			
+				
 			
 			<!--ongoing post2-->
-			<div class="collection_ct"> <div class="collection_ct_img"> <img src="events2.jpeg" width="100%" height="100%"/>     </div>
-			<div class="collection_ct_ti"><div class="collection_ct_ti_sub">Diwali Special Tournament</div></div>
+			<div class="collection_ct" style="background: linear-gradient(to bottom, #704600, #CA7E00, #D98700, #A56700, #7F4F00);" 
+                   onclick="Clicktwo(); document.getElementsByClassName('outro')[0].style.background='linear-gradient(to bottom, #704600, #CA7E00, #D98700, #A56700, #7F4F00)'; document.getElementsByClassName('outro')[0].style.display='block'; ">
+			<div class="collection_ct_ti"><div class="collection_ct_ti_sub">Diwali Special</div></div>
+<div class="collection_ct_img">
+           <img src="events.png" width="100%" />
+</div>
+<div class="collection_ct_ds"><div class="collection_ct_ds_sub">Scheduled on or before 12th February</div></div>
+<div class="open" style="background-color:#D98700;">OPEN</div>
 			</div>
+			   <script>
+          function Clicktwo() {
+            setTimeout(
+              function() {
+               parent.location='ongoing/events2.html ';
+           }, 300);
+           }
+       </script>
+       
+       
+			
              <div class="title">
 	<h1>UPCOMING EVENTS</h1>
 	</div>
@@ -31,22 +65,52 @@
 				<div class="collection">
 					
 					<!--upcoming post1-->
-			<div class="collection_ct"  onclick="parent.location='upcoming/events1.html';
-			document.getElementsByClassName('loader')[0].style.display='block'; ">
-			<div class="collection_ct_img"><img src="events.jpeg" width="100%" height="100%" /> </div>
-			<div class="collection_ct_ti"><div class="collection_ct_ti_sub">Cheap Pooling (2347)</div></div>
+			<div class="collection_ct" style="background: linear-gradient(to bottom, #005B54, #008E83, #00FFEB, #009E91, #005952);" 
+                   onclick="Upcomingone(); document.getElementsByClassName('outro')[0].style.background='linear-gradient(to bottom, #005B54, #008E83, #00FFEB, #009E91, #005952)'; document.getElementsByClassName('outro')[0].style.display='block'; ">
+			<div class="collection_ct_ti"><div class="collection_ct_ti_sub">Diwali Special</div></div>
+<div class="collection_ct_img">
+           <img src="events.png" width="100%" />
+</div>
+<div class="collection_ct_ds"><div class="collection_ct_ds_sub">Scheduled on or before 12th February</div></div>
+<div class="open" style="background-color:#00FFEB;">OPEN</div>
 			</div>
+			   <script>
+          function Upcomingone() {
+            setTimeout(
+              function() {
+               parent.location='upcoming/events1.html ';
+           }, 300);
+           }
+       </script>
 			
 			<!--upcoming post2-->
-			<div class="collection_ct" onclick="parent.location='upcoming/events2.html';
-			document.getElementsByClassName('loader')[0].style.display='block'; ">
-<div class="collection_ct_img"> <img src="events3.jpeg" width="100%" height="100%"/>     </div>
-			<div class="collection_ct_ti"><div class="collection_ct_ti_sub">Christmas Challenge (5636)</div></div>
-		</div> </div></div></div>
+			<div class="collection_ct" style="background: linear-gradient(to bottom, #660086, #8700B3, #A400D9, #8400AF, #650085);" 
+                   onclick="Upcomingtwo(); document.getElementsByClassName('outro')[0].style.background='linear-gradient(to bottom, #660086, #8700B3, #A400D9, #8400AF, #650085)'; document.getElementsByClassName('outro')[0].style.display='block'; ">
+			<div class="collection_ct_ti"><div class="collection_ct_ti_sub">Diwali Special</div></div>
+<div class="collection_ct_img">
+           <img src="events.png" width="100%" />
+</div>
+<div class="collection_ct_ds"><div class="collection_ct_ds_sub">Scheduled on or before 12th February</div></div>
+<div class="open" style="background-color:#A400D9;">OPEN</div>
+			</div>
+			   <script>
+          function Upcomingtwo() {
+            setTimeout(
+              function() {
+               parent.location='upcoming/events2.html ';
+           }, 300);
+           }
+       </script>
+
+
+</div></div></div>
 		<!-- translate closed-->
 			</div>
 			<div class="loader"><div class="loader_ct">
 			<img src="football.png" width="100% height="100%"">
 			</div></div>
+			
+			<!--------outro------>
+			<div class="outro"></div>
 </body>
 </html>
