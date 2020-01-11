@@ -8,95 +8,64 @@ $(window).load(function() {
 });
 </script>
  <meta name="viewport" content="initial-scale=2, maximum-scale=1.0, user-scalable=no" />
- <link href="https://shameelabid.github.io/pes/res/ongoing_style.css" rel="stylesheet">
+ <link href="ongoing_style.css" rel="stylesheet">
  
  
 </head>
-<body>
-	<img src="events.jpeg" width="100%">
-		
-		<div class="title">
-			100$ CHALLENGE<br/>(tournament is live)
-		</div>
-		
-		<div class="title">
-			First round <br/>(end on: 28th oct)
-			</div>
-			
-<div class="fixture">1. Shamee Vs Mortal(pending)</div>
-<div class="fixture">2. King Vs Queen(Win)</div>
-<div class="fixture">3. Ellie Vs Errn_234(pending)</div>
-<div class="fixture">4. konami king Vs KBFC(pending)</div>
-<div class="fixture">5. I AM N(Win) Vs Duke</div>
-<div class="fixture">6. Lolan Vs Shambu(Win)</div> 
-<div class="fixture">7. Raju Vs Radha(Win)</div>
-<div class="fixture">8. Chotu(Win) Vs Babu</div>
-
-<div class="title">
-	Quarter Final
-</div>
-
-<div class="fixture">1. Queen Vs Shambu</div>
-<div class="fixture">2. Radha Vs Chotu</div>
-<div class="fixture">3. --- Vs ---</div>
-<div class="fixture">4. ---Vs ---</div>
-
-
-<div class="title">
-	Semi Final
-</div>
-
-<div class="fixture">1. ---Vs ---</div>
-<div class="fixture">2. --- Vs ---</div>
-
-<div class="title">
-	Final
-</div>
-<div class="fixture"> ---Vs ---</div>
-
-
-
-
-<div class="loader"><div class="loader_ct">
-			<img src="football.png" width="100% height="100%"">
-				<style>
-					.loader {
-    position: fixed;
-    width:100%;
-    height:100%;
-    z-index: 10;
-    background-color:white;
-    display:none;
-    
-    
-}
-
-.loader_ct {
-	         
-			position:fixed;
-			top:50%;
-			left:42%;
-			transform:translate(-50%, -50%);
-			width:60px;
-			height:60px;
-			
-			animation:rot 1s linear infinite;
+<style>
+	body {
+		background: linear-gradient(to bottom, #3E000A, #7E0030, #9A002D, #97002C, #61000D);
 		}
 		
-		@keyframes rot {
-			0% {
-				transform:rotate(0deg);
-				}
-				
-			100% {
-				transform:rotate(360deg);
-				}
+	.register {
+		background-color:#940016;
+		}
+		
+	.screen2 {
+		background: linear-gradient(to bottom, #3E000A, #7E0030, #9A002D, #9A002D, #9A002D);
+		}
+</style>
+<body>
+	
+	<div class="screen1">
+	<div class="back"> </div>
+	<div class="title">
+			Cheap pooling (2347)
+		</div>
+		
+	<div class="main-img">
+	         <img src="events1.png" width="300px">
+		</div>
+		
+		<div class="details-ti">Description </div>
+		<div class="details">
+			 <p>
+				This tournament is live now. Click below button to see the progress.
+			</p>
+		</div>
+		<div class="register" onclick="document.getElementsByClassName('screen1')[0].style.display='none'; document.getElementsByClassName('screen2')[0].style.display='block'; ">
+			<p10>Tournament is LIVE</br>See Fixtures</p10>
+		</div>
+		</div>
+		<!--screen1 closed-->
 			
-			}
-		
-		
-		
-				</style>
-			</div></div>
+		<div class="screen2" style="display:none;">
+			<div class="fixture-ti">FIXTURE</div>
+			<p class="p-fixture">
+				<h2>Group A</h2>
+				- - - - Vs - - - - </br>
+				- - - - Vs - - - - </br>
+				- - - - Vs - - - - </br>
+				- - - - Vs - - - - </br>
+				
+				<h2>Group B</h2>
+				- - - - Vs - - - - </br>
+				- - - - Vs - - - - </br>
+				- - - - Vs - - - - </br>
+				- - - - Vs - - - - </br>
+			</p>
+		</div>
+		<!--screen2 closed-->
+	
 </body>
 </html>
