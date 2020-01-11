@@ -1,7 +1,11 @@
 @font-face {
                 font-family:Montserrat-Regular;
-                src: url(https://voublaa.github.io/res/font/Montserrat-Regular.ttf);
+                src: url(Montserrat-Regular.ttf);
             }
+            
+         html {
+         	overflow-x:hidden;
+         }
             
 	body {
 		margin:0;
@@ -17,7 +21,7 @@
        background-color:#FFFFFF;
        color:black;
        line-height:1.5;
-       
+       overflow-x:hidden;
 		}
 		
 		.body {
@@ -32,12 +36,18 @@
 				
 				}
 	
+	.pes-ti {
+		
+		font-size:25px;
+		margin-left:5px;
+		}
 	
 	.title {
 		width:100%;
-		font-size:14px;
-		text-align:center;
+		font-size:7px;
+		
 		padding-top:15px;
+		padding-left:15px;
 		}
 		
 		
@@ -56,35 +66,67 @@
                 
                 .collection_ct {
                 width:250px;
-                height:200px;
+                height:400px;
                 box-shadow:1px 1px 5px #C2C6E8, -1px -1px 5px #C2C6E8;
                 margin:20 auto;
-                display:flex;
-                flex-wrap:wrap;
+                
                 text-align:center;
+                border-radius:15px;
+                overflow:hidden;
                 }
                 
                 .collection_ct_img {
-                width:300px;
-                height:155px;
-                background-color:black;
-                display:block;
+                width:100%;
+                height:170px;
+                
+                
+                
                 }
                 
                 .collection_ct_ti {
-                width:300px;
-                height:45px;
-                background-color:black;
-                display:block;
+                width:100%;
+                height:50px;
+                margin-top:17px;
+                margin-left:10px;
+                
+                
                 }
                 
                 .collection_ct_ti_sub {
-                text-align:center;
-                transform:translateY(12px);
-                font-family:Mandali;
-                font-weight:700;
-                color:#ffffff;
+                text-align:left;
+                
+                color:white;
+                font-size:18px;
+                
                 }
+                
+                            .collection_ct_ds {
+                width:100%;
+                height:100px;
+                margin-top:10px;
+                margin-left:10px;
+                display:block;
+                
+                }
+                
+                .collection_ct_ds_sub {
+                text-align:left;
+                
+                color:white;
+                font-size:13px;
+                
+                }
+                
+              .open {
+              	width:100px;
+              padding-top:10px;
+              padding-bottom:10px;
+              
+              color:white;
+              border-radius:10px;
+              margin-left:75px;
+              
+              }
                 
                 .translate {
                 	animation:translate 0.5s linear 1;
@@ -139,3 +181,33 @@
 				}
 			
 			}
+			
+		.outro {
+					width:100%;
+					height:100%;
+					position:fixed;
+					top:0px;
+					left:0px;
+					display:none;
+					animation:outro 0.3s linear 1;
+					}
+					
+				@keyframes outro {
+					0% {
+						width:5px;
+						height:5px;
+						border-radius:90px;
+						top:50%;
+					    left:50%;
+					
+						}
+						
+						100% {
+							width:100%;
+							height:100%;
+							border-radius:0px;
+							top:0%;
+					        left:0%;
+					
+							}
+					}
